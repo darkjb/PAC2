@@ -1,0 +1,70 @@
+.estilo-alternativo {
+  padding-inline: 2rem;
+  color: $title-color;
+  background-color: $main-color;
+}
+
+.horizontal-flex {
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: $mqFlex) {
+    flex-direction: column;
+  }
+}
+
+.show-list-style {
+  list-style: disc;
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+.text-left-ident {
+  margin-inline-start: 15px;
+}
+
+.image--80 {
+  width: 80vw;
+}
+
+.red {
+  color: red;
+}
+
+.width-250px {
+  width: 250px;
+  margin: auto;
+}
+
+.width-60 {
+  width: calcula-ancho(60);
+  margin: auto;
+}
+
+.width-30 {
+  width: calcula-ancho(30);
+  margin: auto;
+}
+
+.margin-top50 {
+  margin-top: 50px;
+}
+
+.margin-top20 {
+  margin-top: 20px;
+}
+
+.margin-right10 {
+  margin-right: 10px;
+}
+
+.margin-left10 {
+  margin-left: 10px;
+}
+
+.text-justify { 
+  text-align: justify !important;
+}

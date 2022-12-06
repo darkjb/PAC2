@@ -7,7 +7,6 @@
  * Import variables
  */
 
-@import "variables";
 
 /**
  * Import npm dependencies
@@ -17,13 +16,21 @@
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+@import "/node_modules/bootstrap/scss/bootstrap";
 
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
+@import "settings";
+@import "tools";
+@import "generic";
+@import "elements";
+@import "objects";
+@import "components";
+@import "utilities";
 
 /**
  * Do NOT include anything else in this file!

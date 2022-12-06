@@ -1,0 +1,35 @@
+body {
+  padding: 2rem;
+  margin: 0;
+  font-family: $font-family-sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: $font-color;
+  background-color: $main-bg;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+li {
+  margin: 10px;
+}
+
+footer {
+  margin-top: 1.5rem;
+
+  p {
+    text-align: center;
+  }
+}
+
+nav {
+  width: 60vw;
+}

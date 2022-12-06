@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": [
+    "stylelint-itcss"
+  ],
+  "rules": {
+    "indentation": [2],
+    "declaration-block-single-line-max-declarations": [1],
+    "block-opening-brace-space-before": ["always"],
+    "block-closing-brace-empty-line-before": ["never"],
+    "declaration-colon-space-after": ["always"],
+    "declaration-block-trailing-semicolon": ["always"],
+    "value-list-comma-space-after": ["always"],
+    "color-function-notation": ["modern"],
+    "number-leading-zero": ["never"],
+    "color-hex-case": ["lower"],
+    "color-hex-length": ["short"],
+    "selector-attribute-quotes": ["always"],
+    "length-zero-no-unit": true,
+    "selector-list-comma-newline-after": ["always"],
+    "selector-list-comma-newline-before": ["never-multi-line"],
+    "selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+    "itcss/no-at-important": [
+      true,
+      {
+        "ignoreLayers": ["utilities"]
+      }
+    ],
+    "itcss/no-variable-declaration": [
+      true,
+      {
+        "ignoreLayers": ["settings"]
+      }
+    ],
+    "itcss/no-mixin-declaration": [
+      true,
+      {
+        "ignoreLayers": ["tools"]
+      }
+    ]
+  }
+}

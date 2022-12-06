@@ -1,24 +1,3 @@
-.section__img {
-  display: block;
-  max-width: 200px;
-  height: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
-  margin-left: auto;
-
-  @media (min-width: $mqMinWidth) {
-    max-width: none;
-  }
-}
-
-.section__h2 {
-  text-transform: uppercase;
-}
-
-.section__p {
-  margin-inline-start: 10px;
-}
-
 .header__nav,
 .footer__nav {
   width: 100%;
@@ -26,6 +5,10 @@
   @include media-breakpoint-up(sm) {
     width: auto;
   }
+}
+
+.footer__p {
+  text-align: center;
 }
 
 @include media-breakpoint-up(md) {

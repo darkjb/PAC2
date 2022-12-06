@@ -1,4 +1,4 @@
-body {
+.body {
   padding: 2rem;
   margin: 0;
   font-family: $font-family-sans-serif;
@@ -8,28 +8,15 @@ body {
   background-color: $main-bg;
 }
 
-h2 {
+.head2 {
   font-size: 24px;
   line-height: 30px;
 }
 
-h3 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-li {
+.li {
   margin: 10px;
 }
 
-footer {
+.footer {
   margin-top: 1.5rem;
-
-  p {
-    text-align: center;
-  }
-}
-
-nav {
-  width: 60vw;
 }
